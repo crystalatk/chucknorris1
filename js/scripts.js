@@ -36,7 +36,6 @@ function updateBody(quote) {
             paragraph.remove();
         })
     }
-
     const paragraph = document.createElement('p');
     paragraph.setAttribute("id", "currentQuote")
     paragraph.innerHTML = quote;
