@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuck Norris Rocks my Socks!</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p id="chuckSays">Chuck Norris says: </p>
+    <header>
+        <h1 class="header">Chuck Says...</h1>
+    </header>
+    <main id="main" class="wrapper main">
+        <form id="changeQuote" action="#" method="GET">
+
+        </form>
+        <!-- <img src="assets/moon.jpg" alt="Creepy moon with clouds"> -->
+        <button id="showModal" type="button">Show Quote</button>
+    </main>
+    <div id="overlay" class="overlay">
+        <div id="modal" class="modal">
+            <button id="closeModal" class="close" type="button">X</button>
+        </div>
+    </div>
 </body>
+<script src="js/get.js"></script>
 <script src="js/scripts.js"></script>
 </html>
